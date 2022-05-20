@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 添加 tailwind 基础样式 */
+@layer base {
+    h1 {
+        @apply text-2xl;
+    }
+
+    h2 {
+        @apply text-xl;
+    }
+}
+
+@layer components {
+    .profile {
+        @apply font-mono text-lg font-semibold mt-14
+    }
+}

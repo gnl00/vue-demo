@@ -1,0 +1,19 @@
+.btn {
+    @apply rounded p-2 shadow bg-white text-md cursor-default w-auto h-auto m-1
+}
+
+.btn-primary {
+    @apply bg-blue-500 text-white
+}
+
+.btn-success {
+    @apply bg-green-500 text-white
+}
+
+.btn-warning {
+    @apply bg-yellow-500 text-white
+}
+
+.btn-danger {
+    @apply bg-red-500 text-white
+}

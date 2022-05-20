@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .section-block {
+        @apply text-white bg-blue-200;
+    }
+
+    .section-block-item {
+        @apply bg-blue-500
+    }
+
+    .section-inline-block {
+        @apply bg-gray-200;
+    }
+
+    .inline-block-item {
+        @apply bg-white;
+    }
+
+    .inline-block-item:hover {
+        @apply bg-gray-400;
+    }
+}

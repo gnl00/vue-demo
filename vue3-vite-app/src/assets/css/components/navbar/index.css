@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-wrapper {
+        @apply min-w-full font-mono text-base font-semibold text-white;
+        @apply bg-navBg
+    }
+
+    .nav-content {
+        @apply  flex justify-center h-full;
+    }
+
+    .nav-item {
+        @apply bg-navItem flex-1 m-1 flex justify-center items-center
+    }
+
+    .nav-menu:hover {
+        @apply bg-navHover
+    }
+
+    .nav-right {
+        @apply flex-1 m-1
+    }
+}

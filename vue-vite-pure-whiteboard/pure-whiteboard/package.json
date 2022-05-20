@@ -1,0 +1,16 @@
+{
+  "name": "pure-whiteboard",
+  "author": "gnl",
+  "version": "0.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@unocss/preset-uno": "^0.32.1",
+    "@unocss/transformer-directives": "^0.32.1",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "unocss": "^0.32.1",
+    "vite": "^2.9.5"
+  }
+}
