@@ -1,13 +1,10 @@
 <script setup>
 import {onMounted, ref} from "vue";
-import WhiteBoard from "../utils/WhiteBoard";
 
 let canvas = ref()
 
 onMounted(() => {
   console.log(canvas)
-
-  const wb = new WhiteBoard(canvas)
 })
 
 </script>
